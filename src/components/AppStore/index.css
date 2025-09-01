@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.tab-item-conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.app-item-conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sub-container {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.search-img {
+  height: 25px;
+}
+
+.search-input-element {
+  border-style: none;
+  outline: none;
+
+  padding: 3px;
+  padding-left: 20px;
+  background-color: transparent;
+}
+.search-conatiner {
+  border-style: groove;
+  display: flex;
+  padding: 5px;
+  border-radius: 3px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
